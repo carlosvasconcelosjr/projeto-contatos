@@ -1,0 +1,13 @@
+-- Script para criar a tabela pessoas.
+-- Ver: 1.0
+-- Autor: Prof.: MSc. Carlos Vasconcelos
+
+CREATE TABLE pessoas (
+    cod INT NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(60),
+    nick_name VARCHAR(20),
+    email VARCHAR(60),
+    telefone VARCHAR(15),
+    senha VARCHAR(12),
+    PRIMARY KEY (cod)
+);
